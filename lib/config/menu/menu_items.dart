@@ -16,6 +16,12 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
+    title: 'Counter Screen',
+    subTitle: 'Contador con gestor de estado river_pod',
+    link: '/counter',
+    icon: Icons.add,
+  ),
+  MenuItems(
     title: 'Botones',
     subTitle: 'Varios botones',
     link: '/buttons',
