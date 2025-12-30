@@ -16,6 +16,12 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
+    title: 'Counter Screen',
+    subTitle: 'Contador con gestor de estado river_pod',
+    link: '/counter',
+    icon: Icons.add,
+  ),
+  MenuItems(
     title: 'Botones',
     subTitle: 'Varios botones',
     link: '/buttons',
@@ -62,5 +68,11 @@ const appMenuItems = <MenuItems>[
     subTitle: 'Listas infinitas y pull to refresh',
     link: '/infinite',
     icon: Icons.list_alt_rounded,
+  ),
+  MenuItems(
+    title: 'Cambiar Tema',
+    subTitle: 'Cambiar tema de la aplicación',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined,
   ),
 ];
